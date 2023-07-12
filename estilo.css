@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: 330px solid black;
+  border-right: 330px solid black;
+  border-bottom: 15px solid black;
+  background-image: url("img/cenario-diario.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#estrada-jogo {
+  position: relative;
+  z-index: 0;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#painel-informacoes {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 215px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+#painel-informacoes #informacoes,
+#painel-informacoes #painel {
+  height: 200px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background-color: #F20F22;
+}
+
+#painel-informacoes #informacoes {
+  width: 20%;
+  margin: 0 0 15px 10px;
+}
+
+#painel-informacoes #informacoes #pontuacao,
+#painel-informacoes #informacoes #energia,
+#painel-informacoes #informacoes #velocidade {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  background-color: #FFB73D;
+}
+
+#painel-informacoes #painel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: 20%;
+  margin: 0 10px 15px 0;
+}
+
+#painel-informacoes #painel button {
+  width: 125px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #FFB73D;
+}
+
+#carro {
+  position: absolute;
+  bottom: 0;
+  left: 44%;
+  width: 45px;
+  height: 90px;
+}
+
+#obstaculo {
+  position: absolute;
+  width: 45px;
+  height: 90px;
+}
+
+#postoCombustivel {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+#nitro {
+  position: absolute;
+  width: 60px;
+  height: 50px;
+}
+
+#carro img,
+#nitro img,
+#obstaculo img,
+#estrada-jogo img,
+#postoCombustivel img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+#tela-fim-de-jogo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#tela-fim-de-jogo h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#tela-fim-de-jogo p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#tela-fim-de-jogo button {
+  padding: 10px 20px;
+  font-size: 24px;
+}
