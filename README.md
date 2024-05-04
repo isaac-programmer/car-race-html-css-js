@@ -16,7 +16,7 @@ O jogo foi implementado tendo como inspiração o jogo **Enduro** do **Atari**, 
 
 ## 📦 Tecnologias usadas
 
-Front-end
+**Front-end:**
  * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
  * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
  * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
