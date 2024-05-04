@@ -1,7 +1,5 @@
 # Jogo - Car Race
 
-## ⚠️ Detalhes
-
 O jogo foi implementado tendo como inspiração o jogo **Enduro** do **Atari**, na perspectiva top-down.
 
 ## 📖 Regras do Jogo
